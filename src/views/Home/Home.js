@@ -1,13 +1,13 @@
 import React from 'react';
+import './Home.css';
 
 import Preview from '../../components/Preview/Preview';
 import Editor from '../../components/Editor/Editor';
 
-import './Home.css';
 import { useState } from 'react/cjs/react.production.min';
 
+// add useState calls here for title, subtitle, font, align, and text
 export default function Home() {
-  // add useState calls here for title, subtitle, font, align, and text
 
   const [title, setTitle] = useState('');
   const [subtitle, setSubtitle] = useState('');
