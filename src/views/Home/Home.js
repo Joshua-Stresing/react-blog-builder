@@ -1,17 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 
 import Preview from '../../components/Preview/Preview';
 import Editor from '../../components/Editor/Editor';
 
-import { useState } from 'react/cjs/react.production.min';
 
 // add useState calls here for title, subtitle, font, align, and text
 export default function Home() {
 
   const [title, setTitle] = useState('');
   const [subtitle, setSubtitle] = useState('');
-  const [titleFont, setTitleFont] = useState('');
+  const [titleFont, setTitleFont] = useState('Architects Daughter');
   const [align, setAlign] = useState('');
   const [text, setText] = useState('');
 
