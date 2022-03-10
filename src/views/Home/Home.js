@@ -10,7 +10,7 @@ export default function Home() {
 
   const [title, setTitle] = useState('');
   const [subtitle, setSubtitle] = useState('');
-  const [titleFont, setTitleFont] = useState('Architects Daughter');
+  const [titleFont, setTitleFont] = useState('');
   const [align, setAlign] = useState('');
   const [text, setText] = useState('');
 

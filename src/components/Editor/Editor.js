@@ -27,7 +27,7 @@ export default function Editor({
 
       <div className="form-control">
 
-        <select onChange ={(e)=> setTitleFont(e.target.value)}>
+        <select value={titleFont} onChange={(e) => setTitleFont(e.target.value)}>
           
           <option value="architect">{"Architect's Daughter"}</option>
           <option value="comforter">Comforter</option>
